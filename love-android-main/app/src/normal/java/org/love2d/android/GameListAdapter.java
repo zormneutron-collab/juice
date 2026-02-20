@@ -20,6 +20,8 @@
 
 package org.love2d.android;
 
+import com.pixel.juice.R;
+
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -101,3 +103,4 @@ public class GameListAdapter extends RecyclerView.Adapter<GameListAdapter.ViewHo
         public boolean directory;
     }
 }
+
