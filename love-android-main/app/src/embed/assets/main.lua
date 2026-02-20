@@ -233,7 +233,7 @@ end
 function drawInfo()
     love.graphics.setColor(0,0,0,0.9); love.graphics.rectangle("fill", 30, SH*0.25, SW-60, SH*0.5, 25, 25)
     love.graphics.setColor(1,1,1); love.graphics.setFont(font_small)
-    love.graphics.printf("DEVELOPER\nMamdouh Ibrahim\n\n- UI Scaled & Centered\n- Horizontal Buttons\n\n(Tap to Return)", 40, SH*0.35, SW-80, "center")
+    love.graphics.printf("DEVELOPER\nMamdouh Ibrahim\n\n- Touch the screen from the right and left to move the cup and pick up the ice. Avoid the coffee beans; they're harmful and will deduct 20 points from your score. Pick up the cherries; they're very healthy. Four cherries equal one new life.\n\n(Tap to Return)", 40, SH*0.35, SW-80, "center")
 end
 
 function drawMenu()
