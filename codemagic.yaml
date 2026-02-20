@@ -27,7 +27,7 @@ workflows:
           cd love-android-main
           chmod +x gradlew
 
-          ./gradlew assembleNormalNoRecordRelease \
+          ./gradlew assembleEmbedNoRecordRelease \
             --no-daemon \
             --stacktrace
 
