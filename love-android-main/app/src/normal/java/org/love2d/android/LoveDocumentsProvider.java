@@ -21,6 +21,8 @@
 
 package org.love2d.android;
 
+import com.pixel.juice.R;
+
 import static android.os.Build.VERSION.SDK_INT;
 
 import android.content.res.AssetFileDescriptor;
