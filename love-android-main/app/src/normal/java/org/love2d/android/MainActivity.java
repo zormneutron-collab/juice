@@ -20,6 +20,8 @@
 
 package org.love2d.android;
 
+import com.pixel.juice.R;
+
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
