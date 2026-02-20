@@ -20,6 +20,7 @@
 
 package org.love2d.android;
 
+import com.pixel.juice.R;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
